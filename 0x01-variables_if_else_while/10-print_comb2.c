@@ -11,8 +11,12 @@ int main(void)
 
 	for (Numb = 0; Numb < 100; Numb++)
 	{
-		putchar(n / 10 + '0');
-		putchar(n % 10 + '0');
+		putchar(Numb / 10 + '0');
+		putchar(Numb % 10 + '0');
+		if (Numb !=99)
+		{
+		putchar(',');
+		}
 	}
 
 	putchar('\n');
