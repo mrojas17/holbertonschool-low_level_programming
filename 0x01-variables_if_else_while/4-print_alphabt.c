@@ -13,6 +13,7 @@ int main(void)
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (a == 'q' || a == 'e')
+			continue;
 		putchar(ch);
 	}
 	putchar('\n');
