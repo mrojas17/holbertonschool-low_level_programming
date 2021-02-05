@@ -16,6 +16,7 @@ int main(void)
 		if (Numb !=99)
 		{
 		putchar(',');
+		putchar(' ');
 		}
 	}
 
